@@ -4,7 +4,7 @@ require 'selenium-webdriver'
 
 module Crawler
   class << self
-    def initialize_driver(base_url, headless: false)
+    def initialize_driver(base_url, headless: true)
       options = Selenium::WebDriver::Chrome::Options.new
       options.add_argument("--window-size=1920,1080")
       options.add_argument("--headless") if headless
