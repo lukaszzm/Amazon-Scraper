@@ -21,8 +21,8 @@ which also includes a database helper for saving the retrieved product data.
 ```
 bundle install
 ```
-2. Provide your **endpoint** to amazon website or stick to the default one.
-3. Enter your **keywords**, or leave the field blank to allow the scraper to fetch products from the specified endpoint.
+2. Provide your **endpoint** to amazon website or stick to the default one. (main.rb file)
+3. Enter your **keywords**, or leave the field blank to allow the scraper to fetch products from the specified endpoint. (main.rb file)
 4. Run scraper and wait for results.
 
 ## Important Notes
