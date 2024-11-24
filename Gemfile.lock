@@ -23,6 +23,9 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
+    sequel (5.86.0)
+      bigdecimal
+    sqlite3 (2.3.0-x64-mingw-ucrt)
     websocket (1.2.11)
 
 PLATFORMS
@@ -32,6 +35,8 @@ DEPENDENCIES
   httparty
   nokogiri
   selenium-webdriver
+  sequel
+  sqlite3
 
 BUNDLED WITH
    2.5.23
